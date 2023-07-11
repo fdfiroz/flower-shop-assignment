@@ -52,6 +52,7 @@ body{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    cursor: pointer;
 }
 .banner-img-containar{
     margin-bottom: 0;
@@ -166,8 +167,70 @@ span{
     text-align: center;
 
 }
+.insta-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.insta-title{
+    color: #272727;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.insta-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
 .insta-img-boxes{
-    
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 100px;
+}
+
+.insta-img{
+    width: 300px;
+    height: 320px;
+}
+
+.coupon-containar{
+    background-image: url('./images/Rectangle 9.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 1000px;
+    /* background-origin: content-box; */
+   margin: auto;
+   /* padding: 10px; */
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+   flex-wrap: wrap;
+   gap: 20px;
+   margin-bottom: 100px;
+}
+
+input{
+    width: 500px;
+    height: 54px;
+    border-radius: 5px;
+    background: #FFF;
+    padding-left: 10px;
+    border: #000;
+    margin-right: 10px;
 }
