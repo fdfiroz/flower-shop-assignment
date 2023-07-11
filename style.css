@@ -84,14 +84,13 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: 1.875rem;
-    
     margin-bottom: 3rem;
 }
 
 .featured-img-boxes{
     display: flex;
     justify-content: space-evenly;
-    gap: 2.1875rem;
+    gap: 1rem;
     margin-bottom: 7.5rem;
 }
 .featured-img-box{
@@ -100,13 +99,33 @@ body{
     position: relative
 }
 
-.featured-box-pink{
+.featured-box-1{
     width: 21.875rem; 
     height: 28.125rem; 
     left: 0rem; 
     top: 0rem; 
     position: absolute; 
     background: rgba(167, 33, 98, 0.15); 
+    border-radius: 18.75rem 18.75rem 0rem 0rem;
+
+}
+.featured-box-2{
+    width: 21.875rem; 
+    height: 28.125rem; 
+    left: 0rem; 
+    top: 0rem; 
+    position: absolute; 
+    background: rgba(5, 151, 160, 0.15); 
+    border-radius: 18.75rem 18.75rem 0rem 0rem;
+
+}
+.featured-box-3{
+    width: 21.875rem; 
+    height: 28.125rem; 
+    left: 0rem; 
+    top: 0rem; 
+    position: absolute; 
+    background: rgba(71, 125, 17, 0.15); 
     border-radius: 18.75rem 18.75rem 0rem 0rem;
 
 }
